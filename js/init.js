@@ -1,6 +1,8 @@
 (function($){
   $(function(){
 
+    $('.carousel').carousel();
+
     $('.button-collapse').sideNav({
           menuWidth: 300, // Default is 300
           edge: 'left', // Choose the horizontal origin
@@ -13,7 +15,7 @@
           height: 530
       });
     $('.materialboxed').materialbox();
-      $('.carousel').carousel();
+      $('.modal').modal();
 
       $(".dropdown-button").dropdown();
 
